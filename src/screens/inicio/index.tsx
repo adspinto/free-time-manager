@@ -38,7 +38,7 @@ const InicioScreen: React.FC<IProps> = (props) => {
 
     const taskKeyExtractor = (item, index) => `key-index-${index}`
     return (
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', padding: 10 }}>
             <View>
                 <Text>Freetime left</Text>
             </View>
